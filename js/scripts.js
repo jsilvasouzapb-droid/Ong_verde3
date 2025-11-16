@@ -1,6 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("formCadastro");
     if (!form) return;
+
+document.getElementById("modo-escuro")?.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+});
+
+document..getElementById("alto-contraste")?.addEventListener("click", () => {
+    document.body.classList.toggle("alto-contraste");
+});
     
     const cpfInput = document.getElementById("cpf");
     const telefoneInput = document.getElementById("telefone");
