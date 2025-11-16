@@ -169,4 +169,15 @@ footer {
         outline: 3px solid #ffcc00 !important;
         outline-offset: 4px;
     }
-}
+    .dark-mode {
+    background-color: #111 !important;
+    color: #eee !importatnt;
+    }
+
+    .alto-contraste {
+    background-color: black !important;
+    color: yellow !important;       
+    }
+    .alto-contraste a {
+        color: cyan !important;
+    }
