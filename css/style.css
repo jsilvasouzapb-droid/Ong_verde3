@@ -165,4 +165,8 @@ footer {
     section#galeria img {
         width: 30%;
     }
+    :focus {
+        outline: 3px solid #ffcc00 !important;
+        outline-offset: 4px;
+    }
 }
